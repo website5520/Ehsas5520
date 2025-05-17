@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.logo img
+{
+	width: 80px;
+	margin: 10px;
+	border-radius: 50%;
+	border:3px solid aqua;
+
+}
+.logo img:hover
+{
+	border-radius: 50%;
+	border:4px solid red;
+}
+.row
+{
+	background-color: ;
+	height: 100vh;
+	padding: 10px;
+}
+.col-6{
+	
+	padding: 5px;
+}
+.Home-card{
+	padding: 20px;
+	width: 600px;
+	border-radius: 0px 10px 10px 0px;
+	z-index: 1000;
+	background-color: white;
+		
+}
+.card{
+	padding: 10px;
+	background-color:  linear-gradient(30,35,38,0.1);
+	backdrop-filter: blur(50px);
+	text-align: center;
+	justify-content: right;
+	margin-left: 100px;
+
+}
+#images
+{
+	background-image: linear-gradient(to top, rgba(30,35,38,0.1)rgba(30,35,38,0.1)), url("images/img20.jpg");
+	padding: 10px;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	animation: image 50s linear infinite;
+	transition: all 1s ease;
+	backdrop-filter: blur(50%);
+	border-radius: 10px;
+	z-index: -1000;
+
+}
+#images h2
+{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30%;
+}
+/* Home page Section End --*/
+
+#about1
+{
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	border: 2px solid black;
+}
+#about-per
+{
+	padding: 10px;
+	height: 100%;
+	margin-top: 110px;
+
+ 
+}
+#about-per h1
+{
+	text-align: center;
+	padding: 10px;
+	text-decoration: underline;
+	
+ 
+}
+#about-per span
+{
+	color: cadetblue;
+	font-weight: bold;
+	margin-left: 30px;
+}
+#about-per p
+{
+	color: darkturquoise;
+	font-size:12px;
+	
+}
+#about 
+{
+	padding: 10px;
+	height: 100%;
+	margin-top: 100px;
+}
+#about p
+{
+	font-size: 13px;
+}
+#about img
+{
+	width: 100%;
+}
+
+/* About page Section End --*/
+@keyframes image
+{
+	0%
+	{
+		background-image: url("images/img21.jpg");
+	}
+	10%
+	{
+		background-image: url("images/img22.jpg");
+	}
+	20%
+	{
+		background-image: url("images/img23.jpg");
+	}
+	30%
+	{
+		background-image: url("images/img24.jpg");
+	}
+	40%
+	{
+		background-image: url("images/img25.jpg");
+	}
+	50%
+	{
+		background-image: url("images/img26.jpg");
+	}
+	60%
+	{
+		background-image: url("images/img27.jpg");
+	}
+	70%
+	{
+		background-image: url("images/img28.jpg");
+	}
+	80%
+	{
+		background-image: url("images/img29.jpg");
+	}
+	90%
+	{
+		background-image: url("images/img30.jpg");
+	}
+	100%
+	{
+		background-image: url("images/img24.jpg");
+	}
+}
+
+/* skills page Section End --*/
